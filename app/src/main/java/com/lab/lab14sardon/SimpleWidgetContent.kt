@@ -1,6 +1,3 @@
-package com.lab.lab14sardon
-
-
 import android.content.Context
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.unit.dp
@@ -18,6 +15,7 @@ import androidx.glance.layout.Row
 import androidx.glance.layout.fillMaxSize
 import androidx.glance.layout.padding
 import androidx.glance.text.Text
+import com.lab.lab14sardon.MainActivity
 
 class SimpleWidgetContent : GlanceAppWidget() {
 
@@ -49,4 +47,3 @@ class SimpleWidgetContent : GlanceAppWidget() {
         }
     }
 }
-
